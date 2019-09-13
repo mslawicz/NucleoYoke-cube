@@ -64,6 +64,8 @@ void Error_Handler(void);
 #define LSM6DS3_INT1_GPIO_Port GPIOF
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOH
+#define LD1_Pin GPIO_PIN_0
+#define LD1_GPIO_Port GPIOB
 #define LD3_Pin GPIO_PIN_14
 #define LD3_GPIO_Port GPIOB
 #define STLK_RX_Pin GPIO_PIN_8
@@ -74,8 +76,10 @@ void Error_Handler(void);
 #define USB_PowerSwitchOn_GPIO_Port GPIOG
 #define USB_OverCurrent_Pin GPIO_PIN_7
 #define USB_OverCurrent_GPIO_Port GPIOG
-#define LD1_Pin GPIO_PIN_9
-#define LD1_GPIO_Port GPIOC
+#define display_C_D_Pin GPIO_PIN_8
+#define display_C_D_GPIO_Port GPIOC
+#define Display_CS_Pin GPIO_PIN_9
+#define Display_CS_GPIO_Port GPIOC
 #define USB_SOF_Pin GPIO_PIN_8
 #define USB_SOF_GPIO_Port GPIOA
 #define USB_VBUS_Pin GPIO_PIN_9
@@ -90,6 +94,8 @@ void Error_Handler(void);
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
 #define TCK_GPIO_Port GPIOA
+#define Display_reset_Pin GPIO_PIN_2
+#define Display_reset_GPIO_Port GPIOD
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
 #define LD2_Pin GPIO_PIN_7
